@@ -1,16 +1,14 @@
 [package]
-name = "ed25519-dalek"
+name = "frauth-ed25519-dalek"
 version = "1.0.0-pre.3"
 edition = "2018"
-authors = ["isis lovecruft <isis@patternsinthevoid.net>"]
+authors = ["isis lovecruft <isis@patternsinthevoid.net>", "James Munns <james.munns@ferrous-systems.com>"]
 readme = "README.md"
 license = "BSD-3-Clause"
-repository = "https://github.com/dalek-cryptography/ed25519-dalek"
-homepage = "https://dalek.rs"
-documentation = "https://docs.rs/ed25519-dalek"
-keywords = ["cryptography", "ed25519", "curve25519", "signature", "ECC"]
-categories = ["cryptography", "no-std"]
-description = "Fast and efficient ed25519 EdDSA key generations, signing, and verification in pure Rust."
+repository = "https://github.com/jamesmunns/ed25519-dalek"
+keywords = []
+categories = []
+description = "A fork of ed25519-dalek that addresses serde issues."
 exclude = [ ".gitignore", "TESTVECTORS", "res/*" ]
 
 [badges]
